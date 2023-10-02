@@ -1,0 +1,21 @@
+.form {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 70%;
+}
+.add {
+    width: 120px;
+    display: inline-block;
+    color: white;
+    background-color: green;
+    margin-left: 10px;
+    border-radius: 6px;
+    padding: 3px;
+    }
+input {
+    border: rgb(19, 139, 47) 1px solid;
+    border-radius: 5px;
+}

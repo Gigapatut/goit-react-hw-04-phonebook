@@ -3,7 +3,7 @@ import css from './ContactList.module.css'
 import { nanoid } from 'nanoid';
 
 const ContactList = ({ contacts, onDeleteContact }) => (
-  
+
   <ul >
     
     {contacts.map(({ id, name, number }) => (
